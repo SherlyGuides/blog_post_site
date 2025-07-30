@@ -2,33 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Movie Reviews</title>
+  <title>Your Name</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?
+      family=Playfair+Display:wght@400;700&
+      family=Open+Sans:ital,wght@0,400;0,600;1,400&
+      display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- NAV -->
   <header>
-    <h1>Movie Reviews</h1>
+    <nav class="nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="container">
-    <!-- repeat this block for each post -->
-    <article class="post-preview">
-      <h2><a href="#">Kung Fu Panda</a></h2>
-      <p class="meta">Jul 30, 2025</p>
-      <p>Better than HTTYD but meh</p>
-    </article>
+  <!-- HERO -->
+  <section id="hero">
+    <img src="profile.jpg" alt="Your Name" class="avatar">
+    <h1 class="tagline">
+      Stillness hums beneath the roar,<br>
+      Seeking more than ever before.
+    </h1>
+    <p class="subtag">I’m an electrical engineer… <a href="#about">more →</a></p>
+  </section>
 
-    <article class="post-preview">
-      <h2><a href="#">How to Train Your Dragon</a></h2>
-      <p class="meta">Jul 30, 2025</p>
-      <p>Kya mast movie hai</p>
-    </article>
-    <!-- …and so on… -->
-  </main>
+  <!-- ABOUT -->
+  <section id="about" class="container">
+    <h2>About</h2>
+    <p>I spend half my time solving circuits and the other half wondering why they aren’t working. Interned at Texas Instruments…</p>
+  </section>
 
+  <!-- RESEARCH -->
+  <section id="research" class="container">
+    <h2>Research</h2>
+    <ul>
+      <li>Presented at <a href="https://nitm.ac.in/ICEPE2025">ICEPE 2025</a>, NIT Meghalaya.</li>
+      <!-- add more items here -->
+    </ul>
+  </section>
+
+  <!-- WRITINGS -->
+  <section id="writings" class="container">
+    <h2>Writings</h2>
+
+    <h3>2025</h3>
+    <ul>
+      <li><a href="#">04 May 2025 – A Little Escape To Jibhi And Tirthan</a></li>
+      <li><a href="#">19 Feb 2025 – Academic Research In Its True Form</a></li>
+    </ul>
+
+    <h3>2024</h3>
+    <ul>
+      <li><a href="#">28 Dec 2024 – Resources To Prepare For Analog Internships</a></li>
+      <li><a href="#">16 Dec 2024 – My Google Hardware Interview Experience</a></li>
+      <li><a href="#">06 Dec 2024 – Texas Instruments Internship Experience</a></li>
+    </ul>
+  </section>
+
+  <!-- CONNECT -->
+  <section id="connect" class="container">
+    <h2>Connect with me</h2>
+    <p>
+      <a href="mailto:you@example.com">Email</a> •
+      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> •
+      <a href="https://github.com/yourusername">GitHub</a> •
+      <a href="https://instagram.com/yourprofile">Instagram</a>
+      <!-- add or remove links as you like -->
+    </p>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 My Movie Reviews</p>
+    <p>© Your Name</p>
+    <p><a href="/sitemap.xml">Sitemap</a> • <a href="/colophon.html">Colophon</a></p>
   </footer>
+
 </body>
 </html>
